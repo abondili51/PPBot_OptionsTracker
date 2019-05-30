@@ -16,7 +16,7 @@ class mSettings():
     blocks_channel: str = 'blocks'
     test_channel: str = 'test'
     TradeValue: int = 200000
-    SweepsRegex: str = r^(?P<here>@\w+)\s*(?P<ticker>\[\w+\])\s*(?P<optional>\w* OPTION ALERT:)*\s*(?P<month>\w+)\s*((?P<date>\d+,*\s*\d*))*\s*\$(?P<strike>\d+\.*\d*)\s*(?P<type>\w+).*\s*(?P<ask>ASK!*:)\s*(?P<quantity>\d+)\s*@\s*\$\s*(?P<price>\d+\.*\d*)\s*.*(?P<ref>REF=\$\d+\.*\d*).*'	
+    SweepsRegex: str = r'^(?P<here>@\w+)\s*(?P<ticker>\[\w+\])\s*(?P<optional>\w* OPTION ALERT:)*\s*(?P<month>\w+)\s*((?P<date>\d+,*\s*\d*))*\s*\$(?P<strike>\d+\.*\d*)\s*(?P<type>\w+).*\s*(?P<ask>ASK!*:)\s*(?P<quantity>\d+)\s*@\s*\$\s*(?P<price>\d+\.*\d*)\s*.*(?P<ref>REF=\$\d+\.*\d*).*'	
     # Get your discord token from the discord web client.  Instructions here: https://discordhelp.net/discord-token
     Discord_Token: str = 'YourDscordToken'
 
